@@ -14,5 +14,5 @@ def find_the_cheese(choices)
   cheese_types = ["cheddar", "gouda", "camembert"]
   #choices.each {|choice| return choice if cheese_types.include? (choice)}
  # return nil
-  cheese_types.each {|cheese| choices.detect? (cheese)}
+  cheese_types.each {|cheese| choices.find? (cheese)}
 end
